@@ -5,7 +5,7 @@ var playlist = {
 
 function updatePlaylist(playlist, Mumford, Babel) {
   
-  obj[key] = value;
+  playlist[Mumford] = Babel;
   
   return obj;
 }
