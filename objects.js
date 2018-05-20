@@ -7,7 +7,7 @@ function updatePlaylist(playlist, Mumford, Babel) {
   
   playlist[Mumford] = Babel;
   
-  return obj;
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {
