@@ -1,6 +1,5 @@
 var playlist = { 
-  Bono: "Streets", 
-  Jewel: "Song",
+  'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes', 'Phil Ochs': "Here's to the State of Mississippi"
 };
 
 function updatePlaylist(playlist, Mumford, Babel) {
@@ -11,6 +10,6 @@ function updatePlaylist(playlist, Mumford, Babel) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.Jewel;
+  delete playlist.Slowdive;
   return playlist;
 }
